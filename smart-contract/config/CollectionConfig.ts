@@ -4,7 +4,7 @@ import * as Marketplaces from '../lib/Marketplaces';
 import whitelistAddresses from './whitelist.json';
 
 const CollectionConfig: CollectionConfigInterface = {
-  testnet: Networks.ethereumTestnet,
+  testnet: Networks.hardhatLocal,
   mainnet: Networks.ethereumMainnet,
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.00,
     maxMintAmountPerTx: 2,
   },
-  contractAddress: "0xf25F970d8962e1ddf14C2B3220EF8D2a72E8d681",
+  contractAddress: '0xf25F970d8962e1ddf14C2B3220EF8D2a72E8d681',
   marketplaceIdentifier: 'AllowTest',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
