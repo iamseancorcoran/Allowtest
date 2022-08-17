@@ -9,8 +9,8 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'DappSetUp',
-  tokenName: 'DappSetUp',
+  contractName: 'FuckSake',
+  tokenName: 'FuckSake',
   tokenSymbol: 'ALT',
   hiddenMetadataUri: "ipfs://bafkreibvnudhtwgj2zcckbqs5xdulkxhuw2lkavdz3nc65mzmtytvil7lm/",
   maxSupply: 5000,
@@ -27,7 +27,7 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 1,
   },
   contractAddress: 'null',
-  marketplaceIdentifier: 'DappSetUp',
+  marketplaceIdentifier: 'FuckSake',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };

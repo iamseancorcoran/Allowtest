@@ -7,7 +7,7 @@ import '@openzeppelin/contracts/access/Ownable.sol';
 import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
 
-contract DappSetUp is ERC721AQueryable, Ownable, ReentrancyGuard {
+contract FuckSake is ERC721AQueryable, Ownable, ReentrancyGuard {
 
   using Strings for uint256;
 
@@ -140,7 +140,7 @@ contract DappSetUp is ERC721AQueryable, Ownable, ReentrancyGuard {
     return uriPrefix;
   }
     function teamMint() external onlyOwner{
-        require(!teamMinted, "DappSetUp :: Team already minted");
+        require(!teamMinted, "FuckSake :: Team already minted");
         teamMinted = true;
         _safeMint(msg.sender, 10);
     }
